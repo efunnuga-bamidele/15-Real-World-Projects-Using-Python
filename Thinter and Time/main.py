@@ -8,7 +8,7 @@ clock = Tk()
 
 clock.title("Digital Clock")
 
-lbl = Label(clock, font = "arial 160 bold", bg="blue", fg="white")
+lbl = Label(clock, font = "arial 160 bold", bg="black", fg="white")
 lbl.pack(anchor="center", fill="both", expand="yes")
 
 def time():
